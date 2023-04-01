@@ -23,3 +23,6 @@ Para ver todas as branchs use a URL: https://github.com/joao-parana/ts-monorepo-
 | a2.1 | a2.2 | a2.3 |
 | :---: | :---: | :---: |
 | ![2.1](img/a2.1.png)   |![2.2](img/a2.2.png)      | ![2.3](img/a2.3.png)     |
+
+
+Para ver o que tem debaixo do capô em termos de WebPack e Babel, assista: https://youtu.be/LMCtGvLJT6c 
