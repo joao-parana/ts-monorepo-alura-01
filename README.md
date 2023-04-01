@@ -12,7 +12,7 @@ Os branchs são:
 -  a3.2 `<-` [ Adding Prettier ESLint config setup ] ; [ adding projects/web-public/.eslintrc.js, packages/utils/.eslintrc.js and packages/design-system/.eslintrc.js Files ] ; [ Merging 3 ESLint styles ] ; [ Install ESLint plugin in VSCode ]
 -  a4.1 `<-` [ Adding @alura/test-commons to run Jest for testing ] ; [ Adding test file for math.sum() ] 
 -  a4.2 `<-` [ Adding @alura/test-commons/react-testing-library and packages/design-system/components/Text/index.test.tsx ] 
--  a4.3 `<-`
+-  a4.3 `<-` [ Adding and configuring jest-styled-components ] ; yarn && yarn lint && yarn test
 
 Para ver todas as branchs use a URL: https://github.com/joao-parana/ts-monorepo-alura-01/branches/stale
 
