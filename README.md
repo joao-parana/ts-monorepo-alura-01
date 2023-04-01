@@ -9,7 +9,7 @@ Os branchs são:
 -  a2.1 `<-` [ create packages/utils para funções utilitárias ] ; [ setup yarn workspaces (https://classic.yarnpkg.com/lang/en/docs/workspaces/) ] 
 -  a2.2 `<-` yarn design-system add styled-components ; [ create components Text ] ; [ configure projects/web-public/next.config.js ] ; yarn web-public add -D next-compose-plugins next-transpile-modules ; yarn dev:web-public
 -  a2.3 `<-` [ refatoring TypeScript dependencies setup to @alura/tsconfig-commons ]
--  a3.2 `<-` [ Adding Prettier ESLing config setup ] ; [ adding projects/web-public/.eslintrc.js, packages/utils/.eslintrc.js and packages/design-system/.eslintrc.js Files ] ; [ Merging 3 ESLint styles ] ; [ Install ESLint plugin in VSCode ]
+-  a3.2 `<-` [ Adding Prettier ESLint config setup ] ; [ adding projects/web-public/.eslintrc.js, packages/utils/.eslintrc.js and packages/design-system/.eslintrc.js Files ] ; [ Merging 3 ESLint styles ] ; [ Install ESLint plugin in VSCode ]
 -  a4.1 -
 -  a4.2 -
 -  a4.3 -
