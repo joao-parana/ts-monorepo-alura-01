@@ -5,9 +5,9 @@ Este repositório tem vários Branchs, cada um com um estado persistido no tempo
 Os branchs são:
 
 -  master - branch padrão - Apenas README
--  a1.3 -
--  a2.1 -
--  a2.2 -
+-  a1.3 `<-` yarn init -y ; yarn add next react react-dom ; npx gitignore node ; yarn add --dev typescript @types/node @types/react ; yarn install ; yarn dev  `# [also install VSCode editorconfig plugin]`
+-  a2.1 `<-`
+-  a2.2 `<-`
 -  a2.3 -
 -  a3.2 -
 -  a4.1 -
