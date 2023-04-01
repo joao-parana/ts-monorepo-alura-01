@@ -13,3 +13,5 @@ Os branchs são:
 -  a4.1 -
 -  a4.2 -
 -  a4.3 -
+
+Para ver todas as branchs use a URL: https://github.com/joao-parana/ts-monorepo-alura-01/branches/stale
