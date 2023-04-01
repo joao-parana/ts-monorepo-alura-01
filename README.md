@@ -26,3 +26,89 @@ Para ver todas as branchs use a URL: https://github.com/joao-parana/ts-monorepo-
 
 
 Para ver o que tem debaixo do capô em termos de WebPack e Babel, assista: https://youtu.be/LMCtGvLJT6c 
+
+### Estrutura de diretórios na versão final
+
+```java
+# Visão geral 
+tree . -L 2
+.
+├── README.md
+├── package.json
+├── packages
+│   ├── design-system
+│   └── utils
+├── projects
+│   └── web-public
+├── setup
+│   ├── eslint-commons
+│   ├── test-commons
+│   └── tsconfig-commons
+└── yarn.lock
+
+9 directories, 3 files
+
+➜ tree packages
+packages
+├── design-system
+│   ├── components
+│   │   └── Text
+│   │       ├── __snapshots__
+│   │       │   └── index.test.tsx.snap
+│   │       ├── index.test.tsx
+│   │       └── index.tsx
+│   ├── index.ts
+│   ├── jest.config.ts
+│   ├── package.json
+│   └── tsconfig.json
+└── utils
+    ├── jest.config.ts
+    ├── math
+    │   ├── sum.test.ts
+    │   └── sum.ts
+    ├── package.json
+    └── tsconfig.json
+
+6 directories, 12 files
+
+➜ tree projects
+projects
+└── web-public
+    ├── components
+    │   └── AllProviders
+    │       └── index.tsx
+    ├── jest.config.ts
+    ├── next-env.d.ts
+    ├── next.config.js
+    ├── package.json
+    ├── pages
+    │   ├── _app.tsx
+    │   ├── _document.tsx
+    │   └── index.tsx
+    ├── screens
+    │   └── HomeScreen
+    │       ├── HomeScreen.test.tsx
+    │       ├── HomeScreen.tsx
+    │       └── __snapshots__
+    │           └── HomeScreen.test.tsx.snap
+    └── tsconfig.json
+
+7 directories, 12 files
+
+➜ tree setup
+setup
+├── eslint-commons
+│   ├── base.js
+│   └── package.json
+├── test-commons
+│   ├── base.ts
+│   ├── package.json
+│   ├── react-testing-library.tsx
+│   └── src
+│       └── setupTests.js
+└── tsconfig-commons
+    ├── base.json
+    └── package.json
+
+4 directories, 8 files
+```
