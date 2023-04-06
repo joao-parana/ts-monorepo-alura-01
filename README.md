@@ -112,3 +112,7 @@ setup
 
 4 directories, 8 files
 ```
+
+## Lista completa de HTTP Status code 
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/100 
